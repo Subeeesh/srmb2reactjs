@@ -1,0 +1,86 @@
+{
+  "Students": [
+    {
+      "id": 1,
+      "name": "Subeesh",
+      "number": 99999,
+      "total": 1123
+    },
+    {
+      "id": 2,
+      "name": "Deepak",
+      "number": 88888,
+      "total": 1110
+    },
+    {
+      "id": 3,
+      "name": "Preetham",
+      "number": 77777,
+      "total": 1130
+    },
+    {
+      "name": "Mahez",
+      "number": "6666",
+      "total": 1135,
+      "id": 4
+    },
+    {
+      "name": "goutham",
+      "number": "6666",
+      "total": 1100,
+      "id": 5
+    },
+    {
+      "name": "gokul",
+      "number": "55555",
+      "total": 1100,
+      "id": 6
+    },
+    {
+      "name": "amal",
+      "number": "4444",
+      "total": "1200",
+      "id": 7
+    },
+    {
+      "name": "aadharsh",
+      "number": "9",
+      "total": "9",
+      "Dept": "2",
+      "id": 8
+    },
+    {
+      "name": "srinath",
+      "number": "88",
+      "total": "555",
+      "Dept": "MCA",
+      "id": 9
+    },
+    {
+      "name": "Tarun",
+      "number": "111111",
+      "total": "1123",
+      "Dept": "MCA",
+      "countries": "1",
+      "id": 10
+    }
+  ],
+  "Countries": [
+    {
+      "id": 1,
+      "name": "India"
+    },
+    {
+      "id": 2,
+      "name": "USA"
+    },
+    {
+      "id": 3,
+      "name": "UK"
+    },
+    {
+      "id": 4,
+      "name": "Australia"
+    }
+  ]
+}
