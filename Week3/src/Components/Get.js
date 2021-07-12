@@ -10,19 +10,18 @@ export default function Get() {
 
 
     useEffect(() => {
-        const url = "http://localhost:4000/Students" + users;
-        // fetch("http://localhost:4000/Students").then((result) => {
-        axios.get(url).then(res => {
+    const url = "http://localhost:4000/";
 
-            setUser(res)
-
-        })
-
-        // result.json().then((res) => {
-        //         // console.log(res)
-        //         setUser(res)
-        //     })
-    },[])
+    axios
+      .get(`${url}Students`)
+      .then((res) => {
+        setUser(res.data);
+        console.log("error_____________", res);
+      })
+      .catch((error) => {
+        console.log("error", error);
+      });
+  }, []);
     // fetch("http://localhost:4000/countries").then((result) => {
     //     result.json().then((res) => {
     //         // console.log(res)
